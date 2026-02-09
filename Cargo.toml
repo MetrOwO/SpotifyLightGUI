@@ -4,5 +4,10 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-vergen = "=8.2.6"
-vergen-lib = "=0.1.6"
+tray-icon = "0.14"
+tao = "0.25" # Fork di winit ottimizzato per tray e menu
+reqwest = { version = "0.11", features = ["json", "blocking"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+image = "0.24" # Aggiungi questa riga
+eframe = "0.27"
